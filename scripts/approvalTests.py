@@ -41,6 +41,8 @@ errnoParser = re.compile(r'''
     \(\*__errno_location\ \(\)\)
     |
     \(\*__error\(\)\)
+    |
+    \(\*_errno\(\)\)
 ''', re.VERBOSE)
 
 if len(sys.argv) == 2:
