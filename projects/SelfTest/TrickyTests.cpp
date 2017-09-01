@@ -175,7 +175,7 @@ namespace ObjectWithConversions
     TEST_CASE
     (
         "Operators at different namespace levels not hijacked by Koenig lookup",
-        "[Tricky]"
+        "[Tricky][.approvals]"
     )
     {
         Object o;
